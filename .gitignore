@@ -1,0 +1,25 @@
+lausdLLM.ipynb
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment-related files
+.env
+*.env
+*.venv
+*.DS_Store
+*.log
+.vscode/
+
+# Ignore ChromaDB database files
+chromaDocs/
+chroma/
+
+# Ignore all documents (unless needed)
+documents/
